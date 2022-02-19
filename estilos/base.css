@@ -146,33 +146,55 @@ main {
 
 #bungalows {
 	width: 100%;
+	
 }
 
 #bungalows h2 {
 	font-size: 1em;
 	padding: 10px;
 	text-align: center;
+	
 }
 
 #bungalows p {
 	padding: 10px;
+	text-align: center;
+	
 }
 
 .bungalows div {
 	width: 100%;
+	
 }
 
 .bungalows div img {
 	width: 100%;
+	border: solid black;
+	padding: 0.02em;
+	
+}
+.bunga__header{
+
+	background-color: #3A3A3A;
+	height:3em;
+	color: #FFF;
 }
 
 .bungalows div h3 {
 	text-align: center;
 	padding: 10px 0 10px 0;
+	
 }
 
 .bungalows div p {
 	padding: .5em;
+
+	
+}
+
+.warning{
+	background-color: #3A3A3A;
+	height: 5em;
 }
 
 /* Servicios */
@@ -313,7 +335,21 @@ h2.Atractivos__titulo--uppercase {
 .ubicacion__tituloTx{
 
 	text-align: center;
+	
 }
+.ubicacion__titulo h2{
+
+	background-color: #3A3A3A;
+	height:3em;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	
+	color: #FFF;
+}
+
+
 
 
 .column__der{
@@ -839,6 +875,8 @@ grid-template-columns: 1fr;
 	.servicios h2 {
 		text-align: center;
 		padding: 10px 0 10px 0;
+		background-color: #3A3A3A;
+		color: #FFF;
 	}
 
 	.servicios > img {
