@@ -345,7 +345,7 @@ h2.Atractivos__titulo--uppercase {
 	}
 	
 	
-	}
+	
 
 
 /* CONTACTO */
@@ -354,6 +354,7 @@ h2.Atractivos__titulo--uppercase {
     background-color: #3A3A3A;
     color: aliceblue;
     padding: 20px 20px;
+	
     
   }
 
@@ -576,7 +577,7 @@ grid-template-columns: 1fr;
 
 }
 
-}
+
 
 @media only screen and (min-width: 480px) {
 	.contenedor-grid {
@@ -790,7 +791,7 @@ grid-template-columns: 1fr;
 
 
 }
-}
+
 
 
 
@@ -962,7 +963,7 @@ grid-template-columns: 1fr;
 
 	
     
-}
+
 	
 @media only screen and (min-width: 991px) {
 	.contenedor-grid {
