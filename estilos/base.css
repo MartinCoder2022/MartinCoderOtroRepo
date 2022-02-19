@@ -308,8 +308,44 @@ h2.Atractivos__titulo--uppercase {
   
 }
 
-/*  EL COMPLEJO */
+/*  UBICACION */
 
+.ubicacion__tituloTx{
+
+	text-align: center;
+}
+
+
+.column__der{
+	padding: 2em;
+}
+.colum__der h3{
+	text-align: center;
+	margin-bottom: 2em;
+}
+.coordenadas{
+	text-align: center;
+	margin-top: 5em;
+}
+
+	/*ubicacion*/
+	iframe{
+
+		width: 100%;
+	}
+	
+	.ubicacion__columnas{
+	display: grid;
+	grid-template-columns: 1fr;
+	}
+	
+	.colum__der{
+	
+		padding: 2em;
+	}
+	
+	
+	}
 
 
 /* CONTACTO */
@@ -521,6 +557,25 @@ footer {
     margin-top: 1em;
 	}
 
+		/*ubicacion*/
+iframe{
+
+	width: 100%;
+}
+
+.ubicacion__columnas{
+display: grid;
+grid-template-columns: 1fr;
+}
+
+.colum__der{
+
+	padding: 2em;
+}
+
+
+}
+
 }
 
 @media only screen and (min-width: 480px) {
@@ -716,6 +771,25 @@ footer {
 	.footer .redes ul {
 		margin-top: 3em;
 	}
+
+		/*ubicacion*/
+iframe{
+
+	width: 100%;
+}
+
+.ubicacion__columnas{
+display: grid;
+grid-template-columns: 1fr;
+}
+
+.colum__der{
+
+	padding: 2em;
+}
+
+
+}
 }
 
 
@@ -866,7 +940,24 @@ footer {
 	.form-ubicacion, .form-contacto {
 		padding: 10px;
 	}
+	/*ubicacion*/
+	iframe{
 
+		width: 100%;
+	}
+	
+	.ubicacion__columnas{
+	display: grid;
+	grid-template-columns: 1fr;
+	}
+	
+	.colum__der{
+	
+		padding: 2em;
+	}
+	
+	
+	}
 
 
 	
@@ -896,6 +987,9 @@ footer {
 	footer {
 		grid-area: footer;
 	}
+
+
+
 	
 
 	/* CONTACTO */
@@ -963,7 +1057,26 @@ footer {
 	.footer .redes ul {
 		margin-top: 3em;
 	}
+
+	/*ubicacion*/
+iframe{
+
+	width: 100%;
 }
+
+.ubicacion__columnas{
+display: grid;
+grid-template-columns: 1fr;
+}
+
+.colum__der{
+
+	padding: 2em;
+}
+
+
+}
+
 
 
 @media only screen and (min-width: 1200px) {
